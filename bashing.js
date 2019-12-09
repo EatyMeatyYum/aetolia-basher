@@ -260,7 +260,7 @@ var keneanung = (function (keneanung) {
                 var trigger = reflex_find_by_name("trigger", "keneanung.bashing.queueTrigger", false, false, "Bashing");
                 console.log(trigger);
                 reflex_enable(trigger);
-                send_direct("qeb keneanungki", false);
+                send_direct("queue eqbal keneanungki", false);
             }
         };
 
@@ -399,7 +399,7 @@ var keneanung = (function (keneanung) {
             }else if(estimatedDmg > lastHealth - warnat){
                 warnFlee();
             }
-            send_direct("qeb keneanungki", false);
+            send_direct("queue eqbal keneanungki", false);
         };
 
         module.addPossibleTarget = function (targetName) {
