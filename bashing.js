@@ -399,7 +399,7 @@ var keneanung = (function (keneanung) {
             }else if(estimatedDmg > lastHealth - warnat){
                 warnFlee();
             }
-            send_direct("queue add eqbal keneanungki", false);
+            send_direct("qeb keneanungki", false);
         };
 
         module.addPossibleTarget = function (targetName) {
