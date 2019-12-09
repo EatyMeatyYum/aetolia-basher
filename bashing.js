@@ -260,7 +260,7 @@ var keneanung = (function (keneanung) {
                 var trigger = reflex_find_by_name("trigger", "keneanung.bashing.queueTrigger", false, false, "Bashing");
                 console.log(trigger);
                 reflex_enable(trigger);
-                send_direct("queue add eqbal keneanungki", false);
+                send_direct("qeb keneanungki", false);
             }
         };
 
